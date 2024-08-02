@@ -1,8 +1,13 @@
-# React + Vite
+# Chessboard Movement Visualization
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project visualizes the possible movements of a bishop (camel) in chess using a React application styled with Tailwind CSS. By clicking on any cell, you can see all the diagonally aligned cells that a bishop can reach from that position.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Interactive Chessboard**: Click on any cell to highlight the diagonal cells that a bishop can move to.
+- **Undo Functionality**: Revert the chessboard to its previous state before the last move.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for styling the application.
